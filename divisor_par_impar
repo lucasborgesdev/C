@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+int n;
+int main()
+{
+
+    printf("Escreva um numero inteiro:  \n");
+    scanf("%d",&n);
+
+     if (n%2 ==0)
+         printf("O numero informado é %d e é par!!!\n", n);
+    else
+         printf("o numero informado é %d e é impar!!!\n");
+
+
+
+    return 0;
+}
